@@ -1,0 +1,92 @@
+.franchise-details-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.franchise-details-form {
+  width: 100%;
+  max-width: 700px; /* Increase the max width */
+  padding: 2rem 3rem; /* Increase padding for the form */
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.franchise-info {
+  text-align: left;
+  width: 100%;
+  max-width: 700px; /* Align with form width */
+  margin-bottom: 2rem;
+}
+
+.franchise-info h2 {
+  font-size: 3rem; /* Increase font size */
+  color: #2e7d32;
+}
+
+.franchise-info p {
+  font-size: 1.8rem; /* Increase font size */
+  color: #666;
+  margin-top: 1rem;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.8rem; /* Increase font size */
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 1.5rem 1rem; /* Increase padding */
+  font-size: 1.8rem; /* Increase font size */
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #2e7d32;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem; /* Increase padding */
+  font-size: 2rem; /* Increase font size */
+  color: #fff;
+  background-color: #2e7d32;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1e5830;
+}
+
+.success-message,
+.error-message {
+  font-size: 1.8rem; /* Increase font size */
+  margin-top: 2rem;
+  color: #2e7d32;
+}
+
+.error-message {
+  color: #e74c3c;
+}
