@@ -59,7 +59,7 @@ const ContactUs = () => {
   
   return (
     <>
-    <div className="contact-us-section">
+    <div id ="contact-us-section"  className="contact-us-section">
   <div className="contact-us-container">
     <div className="contact-info">
       <h2>Contact Us</h2>

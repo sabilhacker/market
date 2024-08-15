@@ -8,10 +8,10 @@ export default function Navbar(props) {
   return (
     <nav className={`navbar ${active ? 'active' : ''}`}>
       <a href="/">Home</a>
-      <a href="/aboutus">About Us</a>
-      <a href="/infos">  Franchise information</a>
-      <a href="/applay">  Applay Franchise </a>
-      <a href="/applay">Contactus</a>
+      <a href="#gallery">About Us</a>
+      <a href="#">  Franchise information</a>
+      <a href="#apply">  Applay Franchise </a>
+      <a href="#contact-us-section">Contactus</a>
      
     </nav>
   );

@@ -19,7 +19,7 @@ const supermarkets = [
 
 const SupermarketGallery = () => {
   return (
-    <div className="supermarket-gallery">
+    <div id="gallery" className="supermarket-gallery">
       <h2 className="gallery-title">Multiple Supermarket Franchise theme option</h2>
       <div className="gallery-grid">
         {supermarkets.map((supermarket, index) => (

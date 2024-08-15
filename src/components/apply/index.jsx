@@ -82,7 +82,7 @@ const FranchiseDetailsForm = () => {
   };
   
   return (
-    <div className="franchise-details-form-container">
+    <div id="apply" className="franchise-details-form-container">
       <div className="franchise-info">
         <h2>Get Franchise Details</h2>
         <p>Fill out the form and our team will contact you!</p>
