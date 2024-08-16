@@ -1,8 +1,12 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import heroImage from '../assets/imag.jpg'; // Replace with your grocery-themed image
-
+import heroImage from '../assets/imag.jpg'; 
+import { useNavigate } from 'react-router-dom'; 
 const HeroSection = () => {
+  const navigate = useNavigate(); 
+
+  const handleGetStartedClick = () => {
+    navigate('/apply'); }
   return (
     <div className="flex flex-col-reverse md:flex-row justify-between items-center p-8 md:p-12 lg:p-16 rounded-xl w-full mx-auto  ">
       <div className="w-full md:w-[50%] lg:w-[45%] text-left mt-8 md:mt-0">
@@ -14,7 +18,8 @@ const HeroSection = () => {
         <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed font-light">
           We offer fresh, high-quality products with a strong focus on community-oriented service. Our franchise adapts to local needs, ensuring each store reflects the preferences of its community.
         </p>
-        <button className="bg-green-600 text-white px-8 py-4 rounded-full text-lg md:text-xl font-semibold shadow-lg hover:bg-green-700 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+        <button className="bg-green-600 text-white px-8 py-4 rounded-full text-lg md:text-xl font-semibold shadow-lg hover:bg-green-700 hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1" 
+        onClick={handleGetStartedClick} >
           Get Started
         </button>
       </div>

@@ -45,6 +45,14 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Copyright Section */}
+        <div className="text-center mt-8 text-sm text-[#a6b2c1]">
+          © {new Date().getFullYear()} Designed by Leadgenadvertisement. All rights reserved. 
+          <a href="https://leadgenadvertisements.com/" target="_blank" rel="noopener noreferrer" className="text-[#ffdd00] hover:underline ml-2">
+           Visit website
+          </a>
+        </div>
+
         {/* Uncomment the following block if you want to include the WhatsApp button */}
         {/* 
         <a href="https://wa.me/918277997319" className="fixed bottom-6 right-6 bg-[#25d366] text-white rounded-full text-2xl w-12 h-12 flex items-center justify-center shadow-lg">

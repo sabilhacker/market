@@ -57,8 +57,8 @@ const ContactUs = () => {
   };
   
   return (
-    <div id="contact-us-section" className="flex justify-center items-center py-12 bg-gray-100">
-      <div className="flex max-w-5xl bg-white shadow-lg rounded-lg overflow-hidden">
+    <div id="contact-us-section" className="flex justify-center items-center py-12 px-4 bg-gray-100">
+      <div className="flex flex-col lg:flex-row max-w-5xl bg-white shadow-lg rounded-lg overflow-hidden w-full">
         <div className="flex-1 p-10 bg-gray-100 flex flex-col justify-center">
           <h2 className="text-gray-800 mb-5 text-2xl">Contact Us</h2>
           <p className="text-gray-600 mb-6 text-base leading-relaxed">We would love to hear from you! Whether you have a question, concern, or just want to say hello, feel free to reach out.</p>
