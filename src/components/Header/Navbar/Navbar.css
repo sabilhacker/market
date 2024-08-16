@@ -1,5 +1,5 @@
 .header .navbar a {
-  display: inline-block;
+  /* display: inline-block; */
   color: var(--black);
   font-size: 1.7rem;
   margin: 0 1rem;
